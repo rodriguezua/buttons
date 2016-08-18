@@ -2,9 +2,10 @@ body{
     color:forestgreen;
     text-align: center;
     background-image: url(img/6806129-pretty-backgrounds.jpg);
-    background-size: 1280px 1024px;
+    background-size: 1366px 768px;
     background-repeat: no-repeat;
-}
+    }
+
 
 
 .block{
@@ -17,6 +18,7 @@ body{
     overflow:hidden;
     
 }
+
 
 button{
     width: 110px;

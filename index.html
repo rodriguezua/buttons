@@ -3,22 +3,102 @@
 <html>
 <title>BUTTONS</title>
 <meta charset="utf-8">
-<head>"HTML HEAD"</head>
+<head></head>
   <link rel='stylesheet' type="text/css" href="vw2.css">
 <body>
-<h.1>"intro"</h.1>
-    <p><b></b></p>
+    <script type="text/javascript" src="jquery.js"></script>
+<h1></h1>
     
     
-    <button type="button" class="button1"><img src="img/Volkswagen.svg" alt=""></button>
     
-     <button type="button" class="button2"><img src="img/Audi.svg" alt=""></button>
+    <button type="button" class="button1" onclick="myFunction1()"><img src="img/Volkswagen.svg" alt=""></button>
     
-    <button type="button" class="button3"><img src="img/skodabw.svg" alt=""></button>
+     <button type="button" class="button2" onclick="myFunction2()"><img src="img/Audi.svg" alt=""></button>
     
-    <button type="button" class="button4"><img src="img/opel.svg" alt=""></button>
+    <button type="button" class="button3" onclick="myFunction3()"><img src="img/skodabw.svg" alt=""></button>
+    
+    <button type="button" class="button4" onclick="myFunction4()"><img src="img/opel.svg" alt=""></button>
 
-    
+ <script>
+     var countPress = 1;
+function myFunction1(x){
+     countPress++;
+   if (countPress == 2){
+ document.body.style.backgroundImage="url('img/2014-503976-volkswagen-touareg-3-0-tdi1.jpg')";
+}
+      if (countPress == 3){
+ document.body.style.backgroundImage="url('img/Volkswagen-Touareg-2010-1366x768-009.jpg')";
+}
+      if (countPress == 4){
+ document.body.style.backgroundImage="url('img/2009-Volkswagen-Passat-CC-GT-Front-Side-Pose-In-Silver-1366x768.jpg')";
+}
+      if (countPress == 5){
+ document.body.style.backgroundImage="url('img/volkswagen-cc-passat-5.jpg')";
+}
+       if (countPress == 6){
+ document.body.style.backgroundImage="url('img/Volkswagen-Passat-CC-Individual-2008-1366x768-008.jpg')";
+
+countPress = 1;}
+}
+     
+function myFunction2(x) {
+      countPress++;
+   if (countPress == 2){
+ document.body.style.backgroundImage="url('img/audi-a8-2014-coupe-wallpaper-6.jpg')";
+}
+      if (countPress == 3){
+ document.body.style.backgroundImage="url('img/2013-audi-a8-10.jpg')";
+}
+      if (countPress == 4){
+ document.body.style.backgroundImage="url('img/2012_audi_a6_l_e-tron_concept_7_1920x1080.jpg')";
+}
+      if (countPress == 5){
+ document.body.style.backgroundImage="url('img/2016-audi-a7-car-wallpaper.jpg')";
+}
+       if (countPress == 6){
+ document.body.style.backgroundImage="url('img/grey-audi-a7-sportback-facelift-grey-interior.jpg')";
+
+countPress = 1;}
+}
+function myFunction3(x) {
+   countPress++;
+   if (countPress == 2){
+ document.body.style.backgroundImage="url('img/high-pixel-skoda-superb-wallpapers-hd-background-wallpaper-20160207103510-56b6bb6e5af25.jpg')";
+}
+      if (countPress == 3){
+ document.body.style.backgroundImage="url('img/Skoda-Wallpapers-03730.jpg')";
+}
+      if (countPress == 4){
+ document.body.style.backgroundImage="url('img/skoda-superb-2014-black-wallpaper-7.jpg')";
+}
+      if (countPress == 5){
+ document.body.style.backgroundImage="url('img/2014_skoda_octavia_rs_34_1920x1080.jpg')";
+}
+       if (countPress == 6){
+ document.body.style.backgroundImage="url('img/2014_skoda_octavia_rs_24_1920x1080.jpg')";
+countPress = 1;}
+}
+     
+function myFunction4(x) {
+   countPress++;
+   if (countPress == 2){
+ document.body.style.backgroundImage="url('img/shop_property_file_6936_203.jpg')";
+}
+      if (countPress == 3){
+ document.body.style.backgroundImage="url('img/Opel-Zafira-Tourer-2011-1920x1080-001.jpg')";
+}
+      if (countPress == 4){
+ document.body.style.backgroundImage="url('img/449914.jpg')";
+}
+      if (countPress == 5){
+ document.body.style.backgroundImage="url('img/3840x2160-opel_opel_insignia_insignia_cars-355.jpg')";
+}
+       if (countPress == 6){
+ document.body.style.backgroundImage="url('img/opel-insignia-interior-wallpaper-5.jpg')";
+countPress = 1;}
+}
+     
+</script>   
     
     
 </body>
