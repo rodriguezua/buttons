@@ -1,0 +1,109 @@
+body{
+    color:forestgreen;
+    text-align: center;
+    background-image: url(img/6806129-pretty-backgrounds.jpg);
+    background-size: 1280px 1024px;
+    background-repeat: no-repeat;
+}
+
+
+.block{
+    display:block;
+    width:190px;
+    height: 190px;
+    margin: 10px;
+    padding:5px;
+    border-radius: 10px;
+    overflow:hidden;
+    
+}
+
+button{
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    background: white;
+    margin: 10px;
+    padding:px;
+}
+
+.button1 img{
+    background: white;
+    transform: scale(0.90)
+}
+
+.button2 img{
+    background: white;
+    transform: scale(1.0);
+}
+
+.button3 img{
+    background: white;
+    transform: scale(1.0);
+}
+
+.button4 img{
+    background: white;
+    transform: scale(1.0)
+}
+
+button img{
+    height: 100px;
+    width: auto; 
+}
+
+button:active{
+    transform: scale(0.97);
+}
+
+.block img{
+ position:inherit;
+ width: 200px;
+ height: 200px; 
+}
+
+.block:hover{
+     box-shadow: 0px 0px 0 200px rgba(0, 0, 0, 0.1) inset;
+}
+
+.block img:active{
+    transform: scale(0.97);
+    w.idth:188px;
+    he.ight: 188px;
+    ma.rgin: 11px;
+    bo.rder-radius: 10px;
+}
+
+
+
+.block1{
+    background-color:gainsboro;
+   }
+
+.block2{
+    background-color:gainsboro;
+}
+
+.block3{
+    background-color:gainsboro;
+}
+
+.block4{
+    background-color:gainsboro;
+}
+
+.block5{
+    background-color:deepskyblue;
+}
+
+.block6{
+    background-color:yellow;
+}
+
+.block7{
+    background-color:darkorange;
+}
+
+.block8{
+    background-color:green;
+}
